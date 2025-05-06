@@ -1,0 +1,22 @@
+name: image_editor
+description: A Flutter plugin for image editing.
+version: 0.0.1
+homepage: https://github.com/m2ahmed-exergy/ck-image-editor
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Add other dependencies used in your code here
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.example.image_editor
+        pluginClass: ImageEditorPlugin
+      ios:
+        pluginClass: ImageEditorPlugin
